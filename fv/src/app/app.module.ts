@@ -7,6 +7,7 @@ import { ComponetNavbarComponent } from './componet-navbar/componet-navbar.compo
 import { ComponetFooterComponent } from './componet-footer/componet-footer.component';
 import { ComponetHeaderComponent } from './componet-header/componet-header.component';
 import { ComponetAboutUsComponent } from './componet-about-us/componet-about-us.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ComponetAboutUsComponent } from './componet-about-us/componet-about-us.
     ComponetNavbarComponent,
     ComponetFooterComponent,
     ComponetHeaderComponent,
-    ComponetAboutUsComponent
+    ComponetAboutUsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
